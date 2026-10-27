@@ -1,0 +1,2 @@
+# wipecli-scoop
+cli wipeaway
