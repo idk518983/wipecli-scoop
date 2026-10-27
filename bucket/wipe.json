@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "description": "System maintenance and cache cleaning CLI utility.",
+    "homepage": "https://github.com/idk518983/wipecli",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/idk518983/wipecli/releases/download/v1.0.0/wipe.exe",
+            "hash": "E6837C519FD8FACF2DD244AA850E1E94804A67D3F22E3E578553899E6442E512"
+        }
+    },
+    "bin": "wipe.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/idk518983/wipecli/releases/download/v$version/wipe.exe"
+            }
+        }
+    }
+}
